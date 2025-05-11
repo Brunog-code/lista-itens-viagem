@@ -134,7 +134,7 @@ class gerenciarApp{
     //mostrar na tabela
     exibirNaTabela(){
 
-        if(!this.consultPage){
+        if(this.indexPage){
             //index page
             let listaItems = this.consultar()
 
