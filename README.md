@@ -19,7 +19,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 🌐 Link do Projeto
 
 Acesse o projeto clicando no link abaixo:  
-🔗 [lista-itens-viagem](https://brunog-code.github.io/lista-itens-viagem/)
+🔗 [lista-itens-viagem](https://brunog-code.github.io/lista-itens-viagem/index.html)
 
 ---
 
