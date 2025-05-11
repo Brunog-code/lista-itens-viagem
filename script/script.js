@@ -9,8 +9,8 @@ class gerenciarApp{
         this.btnClear = document.querySelector('#btn-clear')
         this.colFinalizar = document.querySelector('#col-finaly')
         this.colExcluir = document.querySelector('#col-remove')
-        this.indexPage = window.location.pathname.includes('index.html')
-        this.consultPage = window.location.pathname.includes('consulta.html')
+        this.indexPage = document.body.id === 'index-page'
+        this.consultPage = document.body.id === 'consulta-page'
         this.tableConsult = document.querySelector('#table-lista-body-consulta')
     }
 
