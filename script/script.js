@@ -66,7 +66,7 @@ class gerenciarApp{
         let itemsSalvos = localStorage.getItem('item')
 
         if(itemsSalvos){
-            item = JSON.parse(itemsSalvos) //adiciona o array que vier ao array vazio
+            item = JSON.parse(itemsSalvos) 
         }
 
         let objItem = {
@@ -91,7 +91,7 @@ class gerenciarApp{
 
         this.exibirNaTabela()
         this.toast('Item cadastrado com sucesso','#008000')
-        this.tipo.value = ''
+        // this.tipo.value = ''
         this.descricao.value = ''
     }
 
